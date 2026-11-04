@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lunch",
+        "category": "Food",
+        "amount": 150
+    },
+    {
+        "name": "Bus",
+        "category": "Travel",
+        "amount": 60
+    },
+    {
+        "name": "Books",
+        "category": "Education",
+        "amount": 500
+    }
+]
