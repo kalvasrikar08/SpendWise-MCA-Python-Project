@@ -1,49 +1,51 @@
 # SpendWise – Personal Expense Management System
 
-## MCA Python Major Project
+## MCA Python Capstone Project
 
 **Student Name:** Kalwa Srikar  
 **Roll Number:** 2620600021  
-**Department:** CSA  
-**Project:** SpendWise – Intelligent Personal Finance and Expense Management System Using Python
+**Project:** SpendWise – Personal Expense Management System  
+**Language:** Python
 
-## 1. Introduction
-SpendWise is a Python-based personal expense management application designed to help users record, organize and analyze their daily expenses and income.
+## 1. Project Overview
 
-## 2. Objectives
-- Record daily expenses.
-- Categorize expenses.
-- Calculate total expenses.
-- Track income and remaining balance.
-- Generate expense summaries.
-- Store financial records.
+SpendWise is a Python-based personal finance management application designed to record income and expenses and calculate financial summaries.
+
+It helps users understand their spending patterns and remaining balance through transaction management and category-wise analysis.
+
+## 2. Features
+
+- Income and expense management
+- Transaction categorization
+- Automatic expense calculation
+- Total income calculation
+- Remaining balance calculation
+- Category-wise analysis
+- JSON and CSV data handling
+- SQLite database support
+- Exception handling and input validation
+- Automated testing using pytest
 
 ## 3. Technologies Used
+
 - Python 3
-- Google Colab
-- SQLite Database
-- CSV
+- Object-Oriented Programming
+- SQLite
 - JSON
+- CSV
+- pytest
 - Git and GitHub
+- GitHub Actions
+- mypy, Black and Ruff
 
-## 4. Python Concepts Implemented
-1. Python Fundamentals and Algorithmic Thinking
-2. Object-Oriented Programming
-3. Modules, Packages and Project Structure
-4. Exceptions and File Handling
-5. Idiomatic Python
-6. Testing, Git and AI-Assisted Coding
+## 4. Project Structure
 
-## 5. Project Structure
 ```text
-SpendWise_Project/
+SpendWise/
 │
 ├── main.py
-├── expenses.json
-├── expenses.csv
-├── spendwise.db
-│
 ├── modules/
+│   ├── __init__.py
 │   ├── transactions.py
 │   ├── analytics.py
 │   ├── database.py
@@ -53,29 +55,71 @@ SpendWise_Project/
 │   └── quality.py
 │
 ├── tests/
-└── reports/
+├── reports/
+├── expenses.json
+├── expenses.csv
+└── spendwise.db
+```
+
+## 5. Sample Output
+
+```text
+===== SPENDWISE SYSTEM =====
+
+Food: Rs.500
+Travel: Rs.300
+Salary: Rs.15000
+
+Total Expenses: 800
+Total Income: 15000
+Remaining Balance: 14200
 ```
 
 ## 6. How to Run
-1. Download or clone the repository.
-2. Extract the project ZIP file.
-3. Open the project in Python or Google Colab.
-4. Run the main Python program.
 
-## 7. Expected Output
-The application displays:
-- Expense details
-- Total expenses
-- Total income
-- Remaining balance
-- Category-wise expense summary
+Install Python 3 and required development dependencies.
 
-## 8. Author
+```bash
+pip install pytest
+```
+
+Run the application:
+
+```bash
+python main.py
+```
+
+Run tests:
+
+```bash
+pytest -q
+```
+
+## 7. GitHub Actions
+
+GitHub Actions is used for Continuous Integration (CI).
+
+The workflow automatically runs configured checks when code is pushed to GitHub.
+
+## 8. Academic Modules Covered
+
+1. Python Fundamentals and Algorithmic Thinking
+2. Object-Oriented Programming
+3. Modules, Packages and Project Structure
+4. Exceptions, File I/O and Standard Library
+5. Idiomatic Python
+6. Testing, Git and AI-Assisted Coding
+
+## 9. Future Enhancements
+
+- Monthly expense reports
+- Graphical dashboard
+- Budget planning
+- Spending alerts
+- Advanced financial analytics
+
+## 10. Author
+
 **Kalwa Srikar**  
-
-SpendWise Python Capstone Project - CI Testing
-**Roll Number:** 2620600021  
-MCA – CSA
-
-## 9. Conclusion
-SpendWise demonstrates the practical application of Python programming concepts in personal financial management. It combines modular programming, object-oriented design, database operations and data analysis in one project.
+MCA – Python Capstone Project  
+Roll Number: 2620600021
