@@ -72,6 +72,8 @@ The application displays:
 
 ## 8. Author
 **Kalwa Srikar**  
+
+SpendWise Python Capstone Project - CI Testing
 **Roll Number:** 2620600021  
 MCA – CSA
 
